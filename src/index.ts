@@ -4,14 +4,7 @@ export function astroKonamimojisplosion() {
 	return {
 		hooks: {
 			"astro:config:setup"({ injectScript }) {
-				injectScript(
-					"page",
-					`
-                    import { initializeKonamimojisplosion } from "konamimojisplosion";
-
-                    initializeKonamimojisplosion();
-                `
-				);
+				injectScript("page", `import "konamimojisplosion/dist/global.js";`);
 			},
 		},
 		name: "astro-konamimojisplosion",
