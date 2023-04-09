@@ -1,6 +1,6 @@
 {
 	"name": "astro-konamimojisplosion",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"description": "Astro integration to quickly integrate konamimojisplosion into your site. 🎉 ✨ 🎆",
 	"repository": {
 		"type": "git",
