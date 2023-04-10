@@ -1,6 +1,6 @@
 import { AstroIntegration } from "astro";
 
-export function astroKonamimojisplosion() {
+export function konamimojisplosion() {
 	return {
 		hooks: {
 			"astro:config:setup"({ injectScript }) {
@@ -11,4 +11,4 @@ export function astroKonamimojisplosion() {
 	} satisfies AstroIntegration;
 }
 
-export default astroKonamimojisplosion;
+export default konamimojisplosion;
