@@ -1,6 +1,6 @@
 <h1 align="center">Astro Konamimojisplosion</h1>
 
-<p align="center">Astro integration to quickly integrate konamimojisplosion into your site. 🎉 ✨ 🎆</p>
+<p align="center">Astro integration to quickly integrate <a href="https://github.com/JoshuaKGoldberg/konamimojisplosion">konamimojisplosion</a> into your site. 🎉 ✨ 🎆</p>
 
 <p align="center">
 	<a href="#contributors" target="_blank">
