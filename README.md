@@ -23,6 +23,8 @@
     <img alt="TypeScript: Strict" src="https://img.shields.io/badge/typescript-strict-21bb42.svg" />
 </p>
 
+<p align="center"><em>See it live on <a href="https://joshuakgoldberg-dot-com-next.vercel.app">my preview next personal site</a> by entering the <a href="https://en.wikipedia.org/wiki/Konami_Code">Konami Code</a>! ⚡️</em></p>
+
 ## Usage
 
 First, install the `astro-konamimojisplosion` package using your package manager.
