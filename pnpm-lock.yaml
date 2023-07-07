@@ -24,7 +24,7 @@ specifiers:
   lint-staged: ^13.1.0
   markdownlint: ^0.28.0
   markdownlint-cli: ^0.33.0
-  npm-package-json-lint: ^6.4.0
+  npm-package-json-lint: ^7.0.0
   npm-package-json-lint-config-default: ^5.0.0
   pnpm-deduplicate: ^0.4.1
   prettier: ^2.8.3
@@ -61,8 +61,8 @@ devDependencies:
   lint-staged: 13.1.0
   markdownlint: 0.28.0
   markdownlint-cli: 0.33.0
-  npm-package-json-lint: 6.4.0
-  npm-package-json-lint-config-default: 5.0.0_ogc4gh2psjwvuyt5uwb7bwur54
+  npm-package-json-lint: 7.0.0
+  npm-package-json-lint-config-default: 5.0.0_z4ffqwc3io2h4umo4ynjcow2xa
   pnpm-deduplicate: 0.4.1
   prettier: 2.8.3
   prettier-plugin-packagejson: 2.4.2_prettier@2.8.3
@@ -1155,7 +1155,7 @@ packages:
       '@pnpm/crypto.base32-hash': 1.0.1
       '@pnpm/types': 8.10.0
       encode-registry: 3.0.0
-      semver: 7.3.8
+      semver: 7.5.3
     dev: true
 
   /@pnpm/error/4.0.0:
@@ -1260,7 +1260,7 @@ packages:
       '@pnpm/lockfile-types': 4.3.6
       comver-to-semver: 1.0.0
       ramda: /@pnpm/ramda/0.28.1
-      semver: 7.3.8
+      semver: 7.5.3
     dev: true
 
   /@pnpm/network.ca-file/1.0.2:
@@ -1798,7 +1798,7 @@ packages:
     resolution: {integrity: sha512-IG23inYII3dWlU2EyiAiGj6Bwal5GzsgPMwjYGvc1HPE2dgbj4ZB5ToWBKSquKw74nB3TIuOwaI6/jSULzfgrw==}
     engines: {node: '>=14.16'}
     dependencies:
-      type-fest: 3.5.1
+      type-fest: 3.12.0
     dev: true
 
   /ansi-regex/5.0.1:
@@ -2152,7 +2152,7 @@ packages:
   /builtins/5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.3.8
+      semver: 7.5.3
     dev: true
 
   /busboy/1.6.0:
@@ -2509,6 +2509,16 @@ packages:
 
   /cosmiconfig/8.0.0:
     resolution: {integrity: sha512-da1EafcpH6b/TD8vDRaWV7xFINlHlF6zKsGwS1TsuVJTZRkquaS5HTMq7uq6h31619QjbsYl21gVDOm32KM1vQ==}
+    engines: {node: '>=14'}
+    dependencies:
+      import-fresh: 3.3.0
+      js-yaml: 4.1.0
+      parse-json: 5.2.0
+      path-type: 4.0.0
+    dev: true
+
+  /cosmiconfig/8.2.0:
+    resolution: {integrity: sha512-3rTMnFJA1tCOPwRxtgF4wd7Ab2qvDbL8jX+3smjIbS4HlZBagTlpERbdN7iAbWlrfxE3M8c27kTwTawQ7st+OQ==}
     engines: {node: '>=14'}
     dependencies:
       import-fresh: 3.3.0
@@ -5700,7 +5710,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.11.0
-      semver: 7.3.8
+      semver: 7.5.3
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -5719,24 +5729,24 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /npm-package-json-lint-config-default/5.0.0_ogc4gh2psjwvuyt5uwb7bwur54:
+  /npm-package-json-lint-config-default/5.0.0_z4ffqwc3io2h4umo4ynjcow2xa:
     resolution: {integrity: sha512-guf+bECFtVz6sekPBmkf/m/k8gbX16F5S9wZI6cvhrkSEl+AhM2GoCU6alOhbaGbkn0PgbNRcRrsuu4jWEZFHQ==}
     engines: {node: '>=14.0.0', npm: '>=6.0.0'}
     peerDependencies:
       npm-package-json-lint: ^6.0.0
     dependencies:
-      npm-package-json-lint: 6.4.0
+      npm-package-json-lint: 7.0.0
     dev: true
 
-  /npm-package-json-lint/6.4.0:
-    resolution: {integrity: sha512-cuXAJJB1Rdqz0UO6w524matlBqDBjcNt7Ru+RDIu4y6RI1gVqiWBnylrK8sPRk81gGBA0X8hJbDXolVOoTc+sA==}
-    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+  /npm-package-json-lint/7.0.0:
+    resolution: {integrity: sha512-Yn8flnPx/7hTxwejWL5urm8sbEahq8ic3R80d7nlBvS6C58JEmJpUqvO7Ksy8izRzpbrHq0Anwlv/nQg5OYf8Q==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     hasBin: true
     dependencies:
       ajv: 6.12.6
       ajv-errors: 1.0.1_ajv@6.12.6
       chalk: 4.1.2
-      cosmiconfig: 8.0.0
+      cosmiconfig: 8.2.0
       debug: 4.3.4
       globby: 11.1.0
       ignore: 5.2.4
@@ -5745,10 +5755,10 @@ packages:
       log-symbols: 4.1.0
       meow: 9.0.0
       plur: 4.0.0
-      semver: 7.3.8
+      semver: 7.5.3
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      type-fest: 3.5.1
+      type-fest: 3.12.0
       validate-npm-package-name: 5.0.0
     transitivePeerDependencies:
       - supports-color
@@ -5969,7 +5979,7 @@ packages:
       got: 12.5.3
       registry-auth-token: 5.0.1
       registry-url: 6.0.1
-      semver: 7.3.8
+      semver: 7.5.3
     dev: true
 
   /parent-module/1.0.1:
@@ -6757,7 +6767,7 @@ packages:
     resolution: {integrity: sha512-0Ju4+6A8iOnpL/Thra7dZsSlOHYAHIeMxfhWQRI1/VLcT3WDBZKKtQt/QkBOsiIN9ZpuvHE6cGZ0x4glCMmfiA==}
     engines: {node: '>=12'}
     dependencies:
-      semver: 7.3.8
+      semver: 7.5.3
     dev: true
 
   /semver/5.7.1:
@@ -6772,6 +6782,14 @@ packages:
 
   /semver/7.3.8:
     resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: true
+
+  /semver/7.5.3:
+    resolution: {integrity: sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -6942,6 +6960,7 @@ packages:
   /source-map/0.6.1:
     resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -7345,8 +7364,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /type-fest/3.5.1:
-    resolution: {integrity: sha512-70T99cpILFk2fzwuljwWxmazSphFrdOe3gRHbp6bqs71pxFBbJwFqnmkLO2lQL6aLHxHmYAnP/sL+AJWpT70jA==}
+  /type-fest/3.12.0:
+    resolution: {integrity: sha512-qj9wWsnFvVEMUDbESiilKeXeHL7FwwiFcogfhfyjmvT968RXSvnl23f1JOClTHYItsi7o501C/7qVllscUP3oA==}
     engines: {node: '>=14.16'}
     dev: true
 
@@ -7534,7 +7553,7 @@ packages:
       is-yarn-global: 0.4.1
       latest-version: 7.0.0
       pupa: 3.1.0
-      semver: 7.3.8
+      semver: 7.5.3
       semver-diff: 4.0.0
       xdg-basedir: 5.1.0
     dev: true
