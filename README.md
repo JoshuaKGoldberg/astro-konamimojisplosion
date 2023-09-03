@@ -1,6 +1,6 @@
 <h1 align="center">Astro Konamimojisplosion</h1>
 
-<p align="center">Astro integration to quickly integrate <a href="https://github.com/JoshuaKGoldberg/konamimojisplosion">konamimojisplosion</a> into your site. 🎉 ✨ 🎆</p>
+<p align="center">Astro integration to quickly load konamimojisplosion into your site. 🎉 ✨ 🎆</p>
 
 <p align="center">
 	<a href="#contributors" target="_blank">
@@ -10,17 +10,20 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <!-- prettier-ignore-end -->
 	</a>
+	<a href="https://codecov.io/gh/JoshuaKGoldberg/astro-konamimojisplosion" target="_blank">
+		<img alt="Codecov Test Coverage" src="https://codecov.io/gh/JoshuaKGoldberg/astro-konamimojisplosion/branch/main/graph/badge.svg"/>
+	</a>
 	<a href="https://github.com/JoshuaKGoldberg/astro-konamimojisplosion/blob/main/.github/CODE_OF_CONDUCT.md" target="_blank">
 		<img alt="Contributor Covenant" src="https://img.shields.io/badge/code_of_conduct-enforced-21bb42" />
 	</a>
 	<a href="https://github.com/JoshuaKGoldberg/astro-konamimojisplosion/blob/main/LICENSE.md" target="_blank">
-	    <img alt="License: MIT" src="https://img.shields.io/github/license/JoshuaKGoldberg/astro-konamimojisplosion?color=21bb42">
-    </a>
+		<img alt="License: MIT" src="https://img.shields.io/github/license/JoshuaKGoldberg/astro-konamimojisplosion?color=21bb42">
+	</a>
 	<a href="https://github.com/sponsors/JoshuaKGoldberg" target="_blank">
-    	<img alt="Sponsor: On GitHub" src="https://img.shields.io/badge/sponsor-on_github-21bb42.svg" />
-    </a>
+		<img alt="Sponsor: On GitHub" src="https://img.shields.io/badge/sponsor-on_github-21bb42.svg" />
+	</a>
 	<img alt="Style: Prettier" src="https://img.shields.io/badge/style-prettier-21bb42.svg" />
-    <img alt="TypeScript: Strict" src="https://img.shields.io/badge/typescript-strict-21bb42.svg" />
+	<img alt="TypeScript: Strict" src="https://img.shields.io/badge/typescript-strict-21bb42.svg" />
 </p>
 
 <p align="center"><em>See it live on <a href="https://joshuakgoldberg-dot-com-next.vercel.app">my preview next personal site</a> by entering the <a href="https://en.wikipedia.org/wiki/Konami_Code">Konami Code</a>! ⚡️</em></p>
@@ -74,3 +77,7 @@ Thanks! 💖
 <!-- You can remove this notice if you don't want it 🙂 no worries! -->
 
 > 💙 This package is based on [@JoshuaKGoldberg](https://github.com/JoshuaKGoldberg)'s [template-typescript-node-package](https://github.com/JoshuaKGoldberg/template-typescript-node-package).
+
+<!-- You can remove this notice if you don't want it 🙂 no worries! -->
+
+> 💙 This package is based on [@JoshuaKGoldberg](https://github.com/JoshuaKGoldberg)'s [astro-konamimojisplosion](https://github.com/JoshuaKGoldberg/astro-konamimojisplosion).

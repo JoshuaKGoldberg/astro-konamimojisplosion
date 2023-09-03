@@ -3,10 +3,10 @@
 	"ignorePaths": [
 		".github",
 		"CHANGELOG.md",
+		"coverage",
 		"lib",
 		"node_modules",
-		"pnpm-lock.yaml",
-		"script/*.json"
+		"pnpm-lock.yaml"
 	],
 	"words": [
 		"astro",
@@ -15,13 +15,16 @@
 		"commitlint",
 		"contributorsrc",
 		"conventionalcommits",
-		"execa",
-		"infile",
 		"knip",
+		"Konami",
+		"konamimojisplosion",
 		"lcov",
+		"markdownlintignore",
+		"npmpackagejsonlintrc",
 		"outro",
 		"packagejson",
 		"quickstart",
+		"tsup",
 		"wontfix"
 	]
 }
