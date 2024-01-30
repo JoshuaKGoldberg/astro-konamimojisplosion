@@ -1,7 +1,6 @@
 {
 	"$schema": "https://unpkg.com/knip@next/schema.json",
 	"entry": "src/index.ts!",
-	"ignoreBinaries": ["cat", "gh"],
-	"ignoreDependencies": ["all-contributors-cli"],
+	"ignoreDependencies": ["konamimojisplosion"],
 	"project": "src/**/*.ts!"
 }
