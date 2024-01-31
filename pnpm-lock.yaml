@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   konamimojisplosion:
     specifier: ^0.5.2
@@ -80,8 +76,8 @@ devDependencies:
     specifier: ^6.4.0
     version: 6.4.0
   npm-package-json-lint-config-default:
-    specifier: ^5.0.0
-    version: 5.0.0(npm-package-json-lint@6.4.0)
+    specifier: ^6.0.0
+    version: 6.0.0(npm-package-json-lint@6.4.0)
   pnpm-deduplicate:
     specifier: ^0.4.1
     version: 0.4.1
@@ -5754,11 +5750,11 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dev: true
 
-  /npm-package-json-lint-config-default@5.0.0(npm-package-json-lint@6.4.0):
-    resolution: {integrity: sha512-guf+bECFtVz6sekPBmkf/m/k8gbX16F5S9wZI6cvhrkSEl+AhM2GoCU6alOhbaGbkn0PgbNRcRrsuu4jWEZFHQ==}
-    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
+  /npm-package-json-lint-config-default@6.0.0(npm-package-json-lint@6.4.0):
+    resolution: {integrity: sha512-Ek3EcbMEjvGSxEywxNF2tTHuzvtaUH48Z7sljmeSejANMSpE1ssIN0oOG/Tlpc+U/P7ElfsOySIjijjmEnvMGw==}
+    engines: {node: '>=16.0.0', npm: '>=8.0.0'}
     peerDependencies:
-      npm-package-json-lint: ^6.0.0
+      npm-package-json-lint: ^7.0.0
     dependencies:
       npm-package-json-lint: 6.4.0
     dev: true
@@ -7971,3 +7967,7 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: true
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
