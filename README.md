@@ -1,5 +1,9 @@
 <h1 align="center">Astro Konamimojisplosion</h1>
 
+<p align="center">
+	<strong>See <a href="https://github.com/JoshuaKGoldberg/emoji-blast">emoji-blast</a> for the new repository containing <code>emoji-blast</code>.</strong>
+</p>
+
 <p align="center">Astro integration to quickly integrate <a href="https://github.com/JoshuaKGoldberg/konamimojisplosion">konamimojisplosion</a> into your site. 🎉 ✨ 🎆</p>
 
 <p align="center">
